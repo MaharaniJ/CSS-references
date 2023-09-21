@@ -1,0 +1,365 @@
+Css:
+gap property:
+
+using grid or using margin padding
+ Ex:1
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px
+
+EX:2
+ margin:20px;
+padding:10px;
+
+
+align-Items:
+
+
+
+reference - css property: https://www.geeksforgeeks.org/css-properties-complete-reference/
+
+
+hr-horizondal roller
+
+text-align - align the text 
+property: justify
+
+Internal style:
+
+<head>
+<style>
+ h1{ //tag selector
+}
+
+.h1{
+}//classSelector
+
+#h1{
+}//Id selector
+
+</style>
+</head>
+
+External style
+style.css
+
+import this css file inside the html file
+
+<head>
+<title>Css</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+
+Font-property:
+font-family:impact
+color:trasparent
+-webkit-background-clip:text - for chrome
+background-clip:text - work in firefox
+
+background-property:
+background-image:url('image.jpg')
+backgound-origin:padding-box;
+background-repeat:no-repeat
+background-origin:content-box , border-box
+background-size:contain,cover
+background-position:left,right,buttom,top
+
+background-gradient:
+linear-gradient
+reapeating-linear-gradient
+radial-gradient
+conic-gradient
+repeating-conic-gradient
+
+linear-gradient:
+background:linear-gradient(red,yellow,orange)
+
+background:linear-gradient(to right or left , to top or bottom, to bottom left,to bottom right,to bottom-left,red,blue)
+
+background:linear-gradient(45deg or -45deg,red,blue)
+
+background:repeating-linear-gradient(red,blue 20%,green 20%)
+
+background:repeating-linear-gradient(to right,red ,blue 10%, green)
+
+background:radial-gradient(red,yellow,green)
+
+background:radial-gradient(red 5%,yellow 15%,green 50%)
+
+background:radial-gradient(circle,red 5%,yellow 15%,green 50%)
+
+background:radial-gradient(closest-side at red 55% 50%,yellow ,green )
+
+background:radial-gradient(farthest-side at 80% 20%,red ,yellow ,green )
+
+background:radial-gradient(farthest-corner at 80% 20%,red ,yellow ,green )
+
+background:radial-gradient(farthest-corner at 80% 20%,red ,yellow ,green )
+
+background:repeating-radial-gradient(red,yellow 10%,green 15%)
+
+background-image:conic-gradient(red,yellow,green,blue);
+border-radius:50%
+
+background-image:conic-gradient(from 90deg,red,yellow,green,blue);
+
+background-image:conic-gradient(at 60% 45%,red,yellow,green)
+
+background-image:conic-gradient(red odeg,red 90deg,yellow 90deg,yellow 180deg,green 180deg,green 270deg,blue 270deg);
+
+background-image:conic-gradient(at 60% 45%,red,yellow,green)
+
+background-image:repeating-conic-gradient(red 10%,yellow 20%)
+
+
+
+background-blend:
+
+width:500px;
+height:500px;
+border:2px solid #332;
+background-image:linear-gradient(red,yellow),url('bg.jpg');
+background-size:cover;
+background-blend-mode:normal;
+background-blend-mode:screen;
+background-blend-mode:overlay;
+background-blend-mode:darken;
+background-blend-mode:hard-light;
+background-blend-mode:soft-light;
+background-blend-mode:multipy;
+background-blend-mode:color-burn;
+background-blend-mode:difference;
+background-blend-mode:exclusion;
+background-blend-mode:hue;
+background-blend-mode:color;
+background-blend-mode:saturation;
+background-blend-mode:luminosity;
+
+
+Opacity:transparency (mostly used in animation)
+
+width:800px;
+border:1px solid #333;
+padding:10px;
+opecity:0.1: //0.0-1.0 values
+
+text-property:
+
+letter-spacing:2px;
+text-transform:uppercase,lowercase,capitalize;
+text-decoration:underline;
+text-align:center, justify;
+vertical-align:super or sub;
+text-indent:50px;
+line-height:30px;
+
+border-property:
+1.style
+border-style:dashed,doted,solid
+solid dashed
+border-top
+border-right
+
+2.width
+3.color
+
+box-model:
+content-padding-border-margin
+
+Margin:
+Padding:
+
+
+width:650px;
+max-width:500px for responsive 
+
+outline property will be applied on the border property
+
+border propety = outline propety
+
+
+CSS Link:
+a:link -a normal, unvisited link
+a:visited-a link the user has visited
+a:hover-a link when the user mouses over it
+
+a:active:a normal, unvisited link
+
+colors:
+usbrandcolors.com
+
+list:
+list-style-type:circle,square,bullet
+list-style-position:inside;
+list-style-image:url()
+
+overflow-x:auto (for responsive web)
+
+tr:hover{
+background-color:#1f262c;
+}
+
+tr:nth-child(even){
+background-color:#1f262c;
+
+dispaly-property:
+ 
+display:inline, block,none,
+
+(or)
+
+visiblity:hidden;
+
+CSS Position Type:
+
+Static
+Relative
+Fixed
+Absolute
+Sticky
+
+float-propety:
+float:right,left,right,bottom
+
+clear-property:
+clear:both,left,right,inherit,initial
+
+CSS Combinators:
+
+1.descendant selector(space)
+
+2.chils selector(>)
+
+3.adjacent sibling selector(+)
+
+4.general sibling selector(~)
+
+Psuedo-elements:
+
+.psuedo-element> p::first-line{
+color:red;
+font-weight:bold;
+font-size:20px;
+}
+
+.psuedo-elements>h1::before{
+content:"Section:" ;
+}
+
+::selection{
+background-color:green;
+color:white
+}
+
+align:"center"
+
+
+
+form:
+
+label:
+for-attribute-must
+
+input:
+type,name
+
+box-sizing:border-box
+
+Mediatype:
+
+1.All
+2.Screen
+3.Print
+4.Screenreader
+
+
+mediatype and|not|only (expressions)
+
+Css Units:
+Absolute Units:
+cm - Centimeters
+mm - millimeters
+in - Inches(1in =96px = 2.54cm)
+px* - Pixels(1px=1/96th of 1in)
+pt - Points(1pt=1/72 of 1in)
+pc - Picas (1pc = 12pt)
+
+Css Relative Units:
+em - Relative to the font-size of the element
+
+rem - Relative to font-size of the root element
+
+vw - Relative to 1% of the width of the viewport
+
+vmin - Relative to 1% of viewport's smaller dimension
+
+vmax - Relative to 1% of viewport's larger dimension
+
+% - Relative to parent element
+
+selector periority:
+id>class>tag>*global
+
+!important
+
+circle:
+slector{
+float:left;
+width:185px,
+hieght:185px;
+shape-outside:circle()
+}
+
+
+Transition-property:
+
+Transform:
+transform:rotate,skewY
+transform-origin:
+transfrom-style:
+
+transition:
+transition-delay
+transition-duration
+transition-property
+transition-timing-function
+
+translate:
+  translate: 100px 20px;
+
+grid:
+div{
+display:grid;
+grid-template-columns: auto auto auto;
+gap:20px;
+}
+
+.four{
+background:white;
+grid-column:span 2;
+grid-row:span 2;
+}
+
+
+flex:
+It accepts 3 different values
+
+1.no-wrap
+  All flex items will on one line
+2.wrap
+flex items will wrap onto multiple lines, from top to bottom.
+
+3.wrap-reverse
+Flex items will wrap onto multiple lines from bottom to top
+flex direction is set to the default value:row
+
+The basic difference between CSS grid layout and CSS flexbox layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
+
+ justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+
+
+
+github.com/anburocky3/CSS3-from-scratch-cyberdude/branches
+flatuicolors.com/palatte/defo
