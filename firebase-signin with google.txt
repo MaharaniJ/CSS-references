@@ -1,0 +1,3 @@
+firebase-signin with google
+
+https://github.com/firebase/firebase-js-sdk/issues/3188

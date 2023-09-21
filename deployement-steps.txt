@@ -1,0 +1,58 @@
+render.com:
+if both frentend and backend folders are in a folder 
+
+1.import the project from github
+name : give a unique name
+region : default
+branch : main or if we have any other branch which holds our project give those branch name
+root-redrictory: specify the backend folder name
+environment : node
+build command : npm install , npm i , npm run build which is given when build key is inside the script in our package.json
+start : npm start
+
+Netlify:
+
+owner:functionu[
+
+branch to deploy:
+main
+
+Basic build settings:
+
+Base directory:
+ frontend folder name
+
+build command:
+npm run build, npm i , npm install
+
+publish directory:
+autofill
+
+final:
+deploy site
+
+
+github.com/DIV297/mernBack - stripe payment method
+
+
+build command:
+
+he all the packages which is used to create the backend
+
+npm i node-Module cors mongoose express bcrypt express-validator jsonwebtoken stripe uuid
+
+
+start-command:
+
+node mainfile.js
+
+npm run build
+npm run start
+npm start
+nodemon
+
+
+fontend onrender:
+source : default scr
+build command:npm install 
+start:npm start
