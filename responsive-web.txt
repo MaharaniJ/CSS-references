@@ -1,5 +1,11 @@
 responsive-web:
 
+width:650px;
+max-width:500px for responsive 
+
+overflow-x:auto (for responsive web)
+overflow: auto
+overflow-y: scroll
 
 how to make responsive:
 /* Default styles for small screens (mobile) */

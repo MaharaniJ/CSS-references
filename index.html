@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        height: 700px;
+        width: 700px;
+        min-width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background:linear-gradient(to bottom right,red,blue,green); */
+
+        /* background:radial-gradient(red 5%,yellow 15%,green 50%);  */
+
+        /* background:radial-gradient(circle,red 5%,yellow 15%,green 50%) */
+        /* background:radial-gradient(red,yellow 10%,green 15% ) */
+        /* background-image:conic-gradient(from 90deg,red,yellow,green,blue);
+background-image:conic-gradient(at 60% 45%,red,yellow,green); */
+        background-image: conic-gradient(
+          red 0deg,
+          red 90deg,
+          yellow 90deg,
+          yellow 180deg,
+          green 180deg,
+          green 270deg,
+          blue 270deg
+        );
+        background-blend-mode: soft-light;
+        opacity: transparent 0.3;
+      }
+      p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-width: 100%;
+        margin: auto;
+        height: 10vh;
+        text-indent: 20px;
+        text-align: justify;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        line-height: 20px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        background: bisque;
+        padding: 9px;
+        font-size: medium;
+        position: sticky;
+        top: 0; /* The element becomes sticky at the top of its container */
+
+        /* z-index: 100;
+        overflow: auto; */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Css background-Gradient</h1>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium
+      laboriosam quis, quisquam explicabo a consectetur quasi eveniet eligendi
+      dolorum magni incidunt quod adipisci facilis ut facere ullam neque aut
+      quam.
+    </p>
+    <div></div>
+    <div></div>
+  </body>
+</html>
