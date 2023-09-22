@@ -1,0 +1,29 @@
+Flex:
+
+Value	Description	
+flex-start	- Default value. Items are positioned at the beginning of the container	
+flex-end	- Items are positioned at the end of the container	
+center	- Items are positioned in the center of the container	
+space-between  -	Items will have space between them	
+space-around -  Items will have space before, between, and after them	
+space-evenly	 - Items will have equal space around them	
+initial  -  Sets this property to its default value. Read about initial	
+inherit
+
+flex:
+It accepts 3 different values
+
+1.no-wrap
+    All flex items will on one line
+2.wrap
+      flex items will wrap onto multiple lines, from top to bottom.
+
+3.wrap-reverse
+        Flex items will wrap onto multiple lines from bottom to top
+        flex direction is set to the default value:row
+
+The basic difference between CSS grid layout and CSS flexbox layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
+
+ justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+

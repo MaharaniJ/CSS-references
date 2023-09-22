@@ -10,22 +10,14 @@ gap:20px
 EX:2
  margin:20px;
 padding:10px;
-
-
 align-Items:
 
-
-
 reference - css property: https://www.geeksforgeeks.org/css-properties-complete-reference/
-
-
 hr-horizondal roller
-
 text-align - align the text 
 property: justify
 
 Internal style:
-
 <head>
 <style>
  h1{ //tag selector
@@ -42,8 +34,7 @@ Internal style:
 
 External style
 style.css
-
-import this css file inside the html file
+Import this css file inside the html file
 
 <head>
 <title>Css</title>
@@ -119,21 +110,37 @@ background-blend:
 width:500px;
 height:500px;
 border:2px solid #332;
+
 background-image:linear-gradient(red,yellow),url('bg.jpg');
+
 background-size:cover;
+
 background-blend-mode:normal;
+
 background-blend-mode:screen;
+
 background-blend-mode:overlay;
+
 background-blend-mode:darken;
+
 background-blend-mode:hard-light;
+
 background-blend-mode:soft-light;
+
 background-blend-mode:multipy;
+
 background-blend-mode:color-burn;
+
 background-blend-mode:difference;
+
 background-blend-mode:exclusion;
+
 background-blend-mode:hue;
+
 background-blend-mode:color;
+
 background-blend-mode:saturation;
+
 background-blend-mode:luminosity;
 
 
@@ -191,7 +198,9 @@ usbrandcolors.com
 
 list:
 list-style-type:circle,square,bullet
+
 list-style-position:inside;
+
 list-style-image:url()
 
 overflow-x:auto (for responsive web)
