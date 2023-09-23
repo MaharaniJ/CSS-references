@@ -1,0 +1,10 @@
+ all sides:
+ porder:
+
+ to give the style for specific sides:
+
+border-(top,bottom,right,left)-width
+
+border-(top,bottom,right,left)-color
+
+border-(top,bottom,right,left)-style

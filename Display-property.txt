@@ -1,0 +1,45 @@
+dispaly:
+
+h1 and p tags are block level properties
+
+block-element:
+dispaly:block
+it will take full width of the parent element 
+it has the content in oneby one
+
+inline-element:
+dispaly:inline
+it has the content in row and it occupy  the enough width based on the content
+
+dispaly:inline-block:
+inline content within the block 
+
+display:table
+
+
+
+table:
+cellpadding="10px" - to get the space around the content in the cell
+cellspacing="10px" - is same as margin it make the space between the cells
+<caption></caption>
+
+<table>   
+  <thead>
+    <tr>
+      <th>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+     <td>
+     </td>
+    </tr>
+  </tbody>
+  <tfoot>
+  </tfoot>
+</table>
+
+rowspan="2 or number(number of cells to be merged)" - which is merge the adjacent cells that has same data 
+colspan="3 number(number of cells to be merged)" - which is merge the adjacent cells 
+

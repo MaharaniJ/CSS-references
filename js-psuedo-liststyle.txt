@@ -25,3 +25,8 @@ ul li{
    list-style-type:upper-alpha;
    list-style-type:lower-greek;
 }
+
+ul li{
+   list-style-position: inside;
+   list-style-position:outside;//default
+}

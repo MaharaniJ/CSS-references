@@ -1,0 +1,29 @@
+1.margin - individual sides
+
+margin-top:value;
+margin-bottom:value;
+margin-left:value;
+margin-right:value;
+
+2.Margin- shorthand properties:
+
+margin:value(apply to all sides)
+margin: top right bottom left;
+margin:(value(applied to vertically(top,bottom)),value(applied to horizontally(right,bottom)))
+
+same as padding
+
+1.padding - individual sides
+
+padding-top:value;
+padding-bottom:value;
+padding-left:value;
+padding-right:value;
+
+2.padding- shorthand properties:
+
+padding:value(apply to all sides)
+padding: top right bottom left;
+padding:(value(applied to vertically(top,bottom)),value(applied to horizontally(right,bottom)))
+
+
