@@ -37,6 +37,8 @@ cellspacing="10px" - is same as margin it make the space between the cells
     </tr>
   </tbody>
   <tfoot>
+    <tr>
+    </tr>
   </tfoot>
 </table>
 
