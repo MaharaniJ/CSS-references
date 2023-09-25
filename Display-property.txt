@@ -45,3 +45,7 @@ cellspacing="10px" - is same as margin it make the space between the cells
 rowspan="2 or number(number of cells to be merged)" - which is merge the adjacent cells that has same data 
 colspan="3 number(number of cells to be merged)" - which is merge the adjacent cells 
 
+_______________________________________________________________________________________________________________________________________________________________________
+ reference for display:
+https://drafts.csswg.org/css-display/#box-generation
+

@@ -1,0 +1,71 @@
+min and max-width and height:
+
+`max-width` and `min-width` are CSS properties used to control the sizing of elements in web design. They are often used with various HTML elements to define how they should behave within their parent containers or in response to different screen sizes. Here's what each property means:
+
+1. `max-width`:
+   - `max-width` sets an upper limit on the width of an element. It specifies the maximum width an element can have before it stops growing horizontally.
+   - When the content or the container's width exceeds the specified `max-width`, the element will not expand further horizontally. Instead, it will either overflow its container or adjust its layout, depending on the CSS properties applied.
+   - `max-width` is commonly used for creating responsive layouts to ensure that elements don't become too wide on larger screens.
+
+   Example:
+   ```css
+ @media (max-width: 768px) {
+  /* Styles for screens with a width of 768 pixels or less */
+  .navbar {
+    display: none; /* Hide the navigation bar */
+  }
+  .content {
+    width: 100%; /* Make the content full width */
+  }
+}
+
+   In this example, the `.container` element will not be wider than 800 pixels, even if the parent container or its content is wider.
+
+2. `min-width`:
+   - `min-width` sets a minimum width for an element. It specifies the minimum width an element should have, ensuring it doesn't become narrower than the specified value.
+   - If the available space is less than the `min-width` value, the element will expand to meet the minimum width requirement. If there's more space available, the element's width will grow to accommodate the content or layout.
+   - `min-width` is often used to prevent elements from becoming too narrow, especially in responsive designs.
+@media (min-width: 1024px) {
+  /* Styles for screens with a width of 1024 pixels or more */
+  .sidebar {
+    width: 250px; /* Wider sidebar for larger screens */
+  }
+  .content {
+    margin-left: 260px; /* Adjust content layout for larger screens */
+  }
+}
+
+   In this example, the `.sidebar` element will always be at least 200 pixels wide, but it can be wider if there's more available space.
+
+These properties are useful for creating flexible and responsive layouts, ensuring that elements adapt to different screen sizes and content while maintaining a specified range of widths. They are commonly used in combination with other CSS properties to achieve desired responsive design behaviors.
+
+
+___________________________________________________________________________________________________________________________________________________________________________
+
+using in grid:
+
+
+/* <inflexible-breadth>, <track-breadth> values */
+minmax(200px, 1fr)
+minmax(400px, 50%)
+minmax(30%, 300px)
+minmax(100px, max-content)
+minmax(min-content, 400px)
+minmax(max-content, auto)
+minmax(auto, 300px)
+minmax(min-content, auto)
+
+/* <fixed-breadth>, <track-breadth> values */
+minmax(200px, 1fr)
+minmax(30%, 300px)
+minmax(400px, 50%)
+minmax(50%, min-content)
+minmax(300px, max-content)
+minmax(200px, auto)
+
+/* <inflexible-breadth>, <fixed-breadth> values */
+minmax(400px, 50%)
+minmax(30%, 300px)
+minmax(min-content, 200px)
+minmax(max-content, 200px)
+minmax(auto, 300px)

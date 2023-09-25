@@ -13,3 +13,12 @@ background:white;
 grid-column:span 2;
 grid-row:span 2;
 }
+
+
+Auto-filling grid tracks
+We can use grid to create a similar effect to flexbox, while still keeping the content arranged in strict rows and columns, by creating our track listing using repeat notation and the auto-fill and auto-fit properties.
+
+z-50
+z-index: 
+
+column-count:2;

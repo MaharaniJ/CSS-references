@@ -32,15 +32,15 @@ ________________________________________________________________________________
 
 If the positioning property (`position`) is not working as expected in your CSS, there could be several reasons for this issue. To troubleshoot and fix it, you can consider the following steps:
 
-1. **Check CSS Syntax**: Ensure that there are no syntax errors in your CSS code. Even a single syntax error can disrupt the entire CSS file. Double-check your property names, values, and semicolons.
+1. **Check CSS Syntax** : Ensure that there are no syntax errors in your CSS code. Even a single syntax error can disrupt the entire CSS file. Double-check your property names, values, and semicolons.
 
-2. **Check for Conflicting Styles**: Make sure there are no conflicting styles applied to the same element. If there are conflicting styles, the browser may prioritize one over the other.
+2. **Check for Conflicting Styles** : Make sure there are no conflicting styles applied to the same element. If there are conflicting styles, the browser may prioritize one over the other.
 
-3. **Check the HTML Structure**: Ensure that the HTML structure is correct, and the elements you're targeting with the `position` property exist in your HTML markup.
+3. **Check the HTML Structure** : Ensure that the HTML structure is correct, and the elements you're targeting with the `position` property exist in your HTML markup.
 
-4. **Position Property Values**: Verify that you're using the correct `position` property value (e.g., `relative`, `absolute`, `fixed`, `sticky`). Each value has specific behavior, so ensure you're using the one that suits your layout needs.
+4. **Position Property Values**  :  Verify that you're using the correct `position` property value (e.g., `relative`, `absolute`, `fixed`, `sticky`). Each value has specific behavior, so ensure you're using the one that suits your layout needs.
 
-5. **Parent Elements**: If you're using `position: relative;` or `position: absolute;`, be aware that the positioning can be relative to the nearest positioned ancestor. Check if there's an ancestor element with a `position` property that might affect the positioning.
+5. **Parent Elements**  : If you're using `position: relative;` or `position: absolute;`, be aware that the positioning can be relative to the nearest positioned ancestor. Check if there's an ancestor element with a `position` property that might affect the positioning.
 
 6. **Z-Index**: If you're using `position: absolute;` or `position: fixed;`, check the `z-index` property. Elements with higher `z-index` values will appear above those with lower values. Make sure your elements have appropriate `z-index` values if needed.
 
